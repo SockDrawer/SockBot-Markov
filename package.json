@@ -1,0 +1,41 @@
+{
+  "name": "sockbot-markov",
+  "version": "0.0.1",
+  "description": "Markov plugin for SockDrawer's SockBot",
+  "repository": "https://github.com/RaceProUK/SockBot-Markov",
+  "license": "MIT",
+  "author": "RaceProUK <raceprouk@sockdrawer.io> (https://github.com/RaceProUK)",
+  "bugs": {
+    "url": "https://github.com/RaceProUK/SockBot-Markov/issues",
+    "email": "raceprouk@sockdrawer.io"
+  },
+  "main": "./Markov.js",
+  "bin": "./node_modules/SockBot/lib/cli.js",
+  "engines": {
+    "node": ">=0.11",
+    "iojs": ">=1.7"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "coveralls": "^2.11.3",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-git": "^1.2.4",
+    "gulp-istanbul": "^0.10.0",
+    "gulp-jsdoc-to-markdown": "^1.1.1",
+    "gulp-mocha": "^2.1.3",
+    "gulp-rename": "^1.2.2",
+    "istanbul-harmony": "^0.3.16",
+    "sinon": "^1.15.1"
+  },
+  "scripts": {
+    "start": "node --harmony --harmony_arrow_functions node_modules/SockBot/lib/cli.js",
+    "lint": "node --harmony --harmony_arrow_functions node_modules/gulp/bin/gulp.js lint",
+    "test": "node --harmony --harmony_arrow_functions node_modules/gulp/bin/gulp.js test",
+    "gulp": "node --harmony --harmony_arrow_functions node_modules/gulp/bin/gulp.js",
+    "istanbul": "node --harmony --harmony_arrow_functions node_modules/istanbul-harmony/lib/cli.js cover node_modules/gulp-mocha/node_modules/mocha/bin/_mocha -- --recursive -R dot",
+    "mocha": "node --harmony --harmony_arrow_functions node_modules/gulp-mocha/node_modules/mocha/bin/_mocha --recursive -R spec"
+  }
+}
