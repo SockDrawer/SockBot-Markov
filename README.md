@@ -1,1 +1,1 @@
-# SockBot-Markov
+# SockBot Markov Plugin
