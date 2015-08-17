@@ -1,6 +1,6 @@
 {
   "name": "sockbot-markov",
-  "version": "0.0.1",
+  "version": "2.0.0",
   "description": "Markov plugin for SockDrawer's SockBot",
   "repository": "https://github.com/RaceProUK/SockBot-Markov",
   "license": "MIT",
@@ -10,12 +10,12 @@
     "email": "raceprouk@sockdrawer.io"
   },
   "main": "./Markov.js",
-  "bin": "./node_modules/SockBot/lib/cli.js",
   "engines": {
     "node": ">=0.11",
     "iojs": ">=1.7"
   },
   "dependencies": {
+    "sockbot": "^2.9.3"
   },
   "devDependencies": {
     "chai": "^3.2.0",
