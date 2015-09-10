@@ -157,7 +157,7 @@ describe('Markov', () => {
             sandbox.restore();
         });
         it('should work', () => {
-            markov.privateFns.reply(null, {'topic_id': 1}, {'post_number': 2});
+            markov.privateFns.reply(null, {id: 1}, {'post_number': 2});
             browserSpy.calledWith(1, 2).should.be.true;
             expect(browserSpy.firstCall.args[2]).to.be.a('string');
             expect(browserSpy.firstCall.args[3]).to.be.a('function');
@@ -165,23 +165,23 @@ describe('Markov', () => {
         it('should generate at least 10 words', () => {
             const randomStub = sandbox.stub(Math, 'random');
             randomStub.returns(0);
-            markov.privateFns.reply(null, {'topic_id': 1}, {'post_number': 2});
+            markov.privateFns.reply(null, {id: 1}, {'post_number': 2});
             expect(browserSpy.firstCall.args[2].split(/\s/).length).to.equal(10);
         });
         it('should cap at 100 words', () => {
             const randomStub = sandbox.stub(Math, 'random');
             randomStub.returns(0);
             randomStub.onFirstCall().returns(0.999999);
-            markov.privateFns.reply(null, {'topic_id': 1}, {'post_number': 2});
+            markov.privateFns.reply(null, {id: 1}, {'post_number': 2});
             expect(browserSpy.firstCall.args[2].split(/\s/).length).to.equal(100);
         });
         it('should not crash when it finds no candidates', () => {
             markov.internals.dictionary = {};
-            expect(markov.privateFns.reply(null, {'topic_id': 1}, {'post_number': 2})).to.not.throw;
+            expect(markov.privateFns.reply(null, {id: 1}, {'post_number': 2})).to.not.throw;
         });
         it('should not do anything if not ready', () => {
             markov.internals.isReady = false;
-            markov.privateFns.reply(null, {'topic_id': 1}, {'post_number': 2});
+            markov.privateFns.reply(null, {id: 1}, {'post_number': 2});
             browserSpy.called.should.be.false;
         });
     });

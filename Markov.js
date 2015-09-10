@@ -32,7 +32,7 @@ exports.defaultConfig = {
      * @default
      * @type {string}
      */
-    corpus: null
+    corpus: ''
 };
 
 /**
@@ -105,7 +105,7 @@ function loadCorpus() {
  * @param {external.posts.CleanedPost} post Post that triggered notification
  */
 function reply(notification, topic, post) {
-    if (!internals.isReady){
+    if (!internals.isReady) {
         return;
     }
     const dictionary = internals.dictionary,
@@ -123,7 +123,7 @@ function reply(notification, topic, post) {
             break; //No candidates, so we can't continue
         }
     }
-    internals.browser.createPost(topic.topic_id, post.post_number, text.reverse().join(' '), () => 0);
+    internals.browser.createPost(topic.id, post.post_number, text.reverse().join(' '), () => 0);
 };
 
 /**
