@@ -27,7 +27,7 @@ Default plugin configuration
 Corpus location
 
 **Kind**: static property of <code>[defaultConfig](#module_Markov.defaultConfig)</code>  
-**Default**: <code>null</code>  
+**Default**: <code>&quot;&quot;</code>  
 <a name="module_Markov.prepare"></a>
 ### Markov.prepare(plugConfig, config, events, browser)
 Prepare Plugin prior to login
