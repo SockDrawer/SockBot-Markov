@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/RaceProUK/SockBot-Markov.svg?branch=master)](https://travis-ci.org/RaceProUK/SockBot-Markov)
 [![Coverage Status](https://coveralls.io/repos/RaceProUK/SockBot-Markov/badge.svg?branch=master)](https://coveralls.io/r/RaceProUK/SockBot-Markov?branch=master)
-[![Docs Status](https://readthedocs.org/projects/sockbot-Markov/badge/?version=latest)](http://sockbot-markov.readthedocs.org/)
+[![Docs Status](https://readthedocs.org/projects/sockbot-markov/badge/?version=latest)](http://sockbot-markov.readthedocs.org/)
 
 [![Dependency Status](https://david-dm.org/RaceProUK/SockBot-Markov/master.svg)](https://david-dm.org/RaceProUK/SockBot-Markov/master)
 [![devDependency Status](https://david-dm.org/RaceProUK/SockBot-Markov/master/dev-status.svg)](https://david-dm.org/RaceProUK/SockBot-Markov/master#info=devDependencies)
