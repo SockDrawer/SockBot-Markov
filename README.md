@@ -11,7 +11,11 @@
 
 #SockBot Markov
 
-Markov plugin for [SockBot](https://sockbot.rtfd.org/en/latest/).
+Markov plugin for [SockBot](https://sockbot.rtfd.org/en/latest/) version 2.0.0 or later; generated semi-coherent posts using a Markov chain generator.
+
+##Usage
+
+No special syntax is required; simply summon, reply, or send a private message.
 
 ##Developers
 
