@@ -70,7 +70,7 @@ JSON example:
 }
 ```
 
-Note that these examples assume an NPM-based installation; other installation methods may require the path to `Math.js` (without file extension) be specified explicitly.
+Note that these examples assume an NPM-based installation; other installation methods may require the path to `Markov.js` (without file extension) be specified explicitly.
 
 YAML example:
 ```
