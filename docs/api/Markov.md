@@ -6,16 +6,16 @@ Markov
 **License**: MIT  
 
 * [Markov](#module_Markov)
-  * _static_
-    * [.defaultConfig](#module_Markov.defaultConfig)
-      * [.corpus](#module_Markov.defaultConfig.corpus) : <code>string</code>
-    * [.prepare(plugConfig, config, events, browser)](#module_Markov.prepare)
-    * [.start()](#module_Markov.start)
-    * [.stop()](#module_Markov.stop)
-  * _inner_
-    * [~loadCorpus()](#module_Markov..loadCorpus)
-    * [~reply(notification, topic, post)](#module_Markov..reply)
-    * [~random(min, max)](#module_Markov..random) ⇒ <code>number</code>
+    * _static_
+        * [.defaultConfig](#module_Markov.defaultConfig)
+            * [.corpus](#module_Markov.defaultConfig.corpus) : <code>string</code>
+        * [.prepare(plugConfig, config, events, browser)](#module_Markov.prepare)
+        * [.start()](#module_Markov.start)
+        * [.stop()](#module_Markov.stop)
+    * _inner_
+        * [~loadCorpus()](#module_Markov..loadCorpus)
+        * [~reply(notification, topic, post)](#module_Markov..reply)
+        * [~random(min, max)](#module_Markov..random) ⇒ <code>number</code>
 
 <a name="module_Markov.defaultConfig"></a>
 ### Markov.defaultConfig
