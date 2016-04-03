@@ -1,6 +1,6 @@
 {
   "name": "sockbot-markov",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Markov plugin for SockDrawer's SockBot",
   "repository": "https://github.com/RaceProUK/SockBot-Markov",
   "license": "MIT",
