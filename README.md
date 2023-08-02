@@ -1,19 +1,19 @@
 [![Coverage Status](https://coveralls.io/repos/SockDrawer/SockBot-Markov/badge.svg?branch=master)](https://coveralls.io/r/SockDrawer/SockBot-Markov?branch=master)
 [![Docs Status](https://readthedocs.org/projects/sockbot-markov/badge/?version=latest)](http://sockbot-markov.readthedocs.org/)
 
-#SockBot Markov
+# SockBot Markov
 
 Markov plugin for [SockBot](https://sockbot.rtfd.org/en/latest/) version 2.10.0 or later; generates semi-coherent posts using a Markov chain generator.
 
-##Usage
+## Usage
 
 No special syntax is required; simply summon, reply, or send a private message.
 
-##Developers
+## Developers
 
 SockBot Markov is developed by [SockDrawer](https://github.com/SockDrawer) developer [RaceProUK](https://github.com/RaceProUK).
 
-##Installation
+## Installation
 
 The preferred method of installation is via NPM; simply run this command within the SockBot installation folder:
 ```
@@ -22,7 +22,7 @@ npm install sockbot-markov
 
 Other methods of installation are possible e.g. cloning the git repository, but only installation via NPM is supported.
 
-###Post Install Setup
+### Post Install Setup
 
 If you installed via NPM skip this step as NPM has already installed all necessary dependencies.
 Otherwise you will need to run the following command in the folder where you installed SockBot Markov:
@@ -30,7 +30,7 @@ Otherwise you will need to run the following command in the folder where you ins
 npm install
 ```
 
-##Configuration
+## Configuration
 
 SockBot Markov requires a text file to generate the corpus that powers the Markov chain; this is specified by the `corpus` setting.
 
@@ -92,6 +92,6 @@ JSON example:
 }
 ```
 
-##Special Thanks
+## Special Thanks
 
 For creating [SockBot](https://sockbot.readthedocs.org/en/latest/) and just generally being awesome: [Accalia de Elementia](https://github.com/AccaliaDeElementia)
