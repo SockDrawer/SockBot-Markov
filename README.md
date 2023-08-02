@@ -1,13 +1,5 @@
-[![Build Status](https://travis-ci.org/RaceProUK/SockBot-Markov.svg?branch=master)](https://travis-ci.org/RaceProUK/SockBot-Markov)
-[![Coverage Status](https://coveralls.io/repos/RaceProUK/SockBot-Markov/badge.svg?branch=master)](https://coveralls.io/r/RaceProUK/SockBot-Markov?branch=master)
+[![Coverage Status](https://coveralls.io/repos/SockDrawer/SockBot-Markov/badge.svg?branch=master)](https://coveralls.io/r/SockDrawer/SockBot-Markov?branch=master)
 [![Docs Status](https://readthedocs.org/projects/sockbot-markov/badge/?version=latest)](http://sockbot-markov.readthedocs.org/)
-
-[![Dependency Status](https://david-dm.org/RaceProUK/SockBot-Markov/master.svg)](https://david-dm.org/RaceProUK/SockBot-Markov/master)
-[![devDependency Status](https://david-dm.org/RaceProUK/SockBot-Markov/master/dev-status.svg)](https://david-dm.org/RaceProUK/SockBot-Markov/master#info=devDependencies)
-[![optionalDependency Status](https://david-dm.org/RaceProUK/SockBot-Markov/master/optional-status.svg)](https://david-dm.org/RaceProUK/SockBot-Markov/master#info=optionalDependencies)
-
-[![Stories in Ready](https://badge.waffle.io/RaceProUK/SockBot-Markov.png?label=ready&title=Ready)](https://waffle.io/RaceProUK/SockBot-Markov)
-[![Stories in Progress](https://badge.waffle.io/RaceProUK/SockBot-Markov.png?label=in%20progress&title=In%20Progress)](https://waffle.io/RaceProUK/SockBot-Markov)
 
 #SockBot Markov
 
